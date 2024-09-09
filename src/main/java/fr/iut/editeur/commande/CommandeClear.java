@@ -9,7 +9,8 @@ public class CommandeClear extends CommandeDocument {
     }
 
     @Override
-    public void executer() {
+    public void executer()
+    {
         new CommandeRemplacer(document, new String[]{"0", ""+this.document.getTexte().length(), "oups"}).executer();
     }
 
