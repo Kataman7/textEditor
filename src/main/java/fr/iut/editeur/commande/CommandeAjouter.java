@@ -4,6 +4,9 @@ import fr.iut.editeur.document.Document;
 
 public class CommandeAjouter extends CommandeDocument {
 
+    /**
+     * Cette commande permet d'ajouter du texte à la fin du document
+     */
     public CommandeAjouter(Document document, String[] parameters) {
         super(document, parameters);
     }
